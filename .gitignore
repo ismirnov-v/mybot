@@ -5,7 +5,7 @@
 .vscode/
 
 #Файл с ключом
-key_file.py
+sec.py
 __pycache__/
 
 #Логи
