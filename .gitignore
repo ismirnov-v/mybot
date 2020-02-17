@@ -7,3 +7,6 @@
 #Файл с ключом
 key_file.py
 __pycache__/
+
+#Логи
+*.log
