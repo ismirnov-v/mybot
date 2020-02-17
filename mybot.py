@@ -16,14 +16,15 @@ def greet_user(bot, update):
     update.message.reply_text(text)
 
 def talk_to_me(bot, update):
-    user_text = update.message.text
-    print(f'Привет {update.message.chat.first_name}! Ты написал {update.message.text}')
-    print(user_text)
+    user_response = (f'Привет {update.message.chat.first_name}! Ты написал "{update.message.text}".')
+
+    #print(user_text)
     logging.info('User: %s, Chat id: %s, Message: %s',
                 update.message.chat.username,
-                update.message.chat.chat.id,
+                update.message.chat.id,
                 update.message.text)
-    update.message.reply_text(user_text)
+    update.message.reply_text(user_response)
+
 
 
 def main():
