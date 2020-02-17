@@ -39,5 +39,3 @@ def main():
     mybot.idle()
 
 main()
-
-
